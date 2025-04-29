@@ -1,0 +1,33 @@
+.button {
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.btn-primary {
+    background-color: var(--color-copper-canyon-900);
+    color: var(--white-color);
+    transition: background-color 0.3s ease-in-out;
+}
+.btn-primary:hover {
+    background-color: var(--color-copper-canyon-800);
+}
+.nav-item{
+    color: var(--color-shark-950);
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+.nav-item:hover{
+    background-color: var(--color-shark-100);
+    color: var(--color-copper-canyon-900);
+}
+.active{
+    background-color: var(--color-copper-canyon-900);
+    color: var(--white-color);
+}
