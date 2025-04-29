@@ -1,68 +1,49 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --color-copper-canyon-50: #fffbeb;
+  --color-copper-canyon-100: #fff5c6;
+  --color-copper-canyon-200: #ffe888;
+  --color-copper-canyon-300: #ffd749;
+  --color-copper-canyon-400: #ffc320;
+  --color-copper-canyon-500: #faa206;
+  --color-copper-canyon-600: #dd7902;
+  --color-copper-canyon-700: #b75506;
+  --color-copper-canyon-800: #95400b;
+  --color-copper-canyon-900: #72320c;
+  --color-copper-canyon-950: #461b02;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --red-color: rgba(242, 24, 4, 1);
+  --yellow-color: rgba(216, 176, 101, 1);
+  --white-color: rgba(216, 212, 208, 1);
+
+  
+  --color-shark-50: #f6f6f6;
+  --color-shark-100: #e7e7e7;
+  --color-shark-200: #d1d1d1;
+  --color-shark-300: #b0b0b0;
+  --color-shark-400: #888888;
+  --color-shark-500: #6d6d6d;
+  --color-shark-600: #5d5d5d;
+  --color-shark-700: #4f4f4f;
+  --color-shark-800: #454545;
+  --color-shark-900: #3d3d3d;
+  --color-shark-950: #262626;
+
+
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
+html, body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  padding-inline-end: 0;
+  box-sizing: border-box;
+  background-color: var(--white-color);
+  color: var(--black-color);
+  position: relative;
+  container-type: inline-size;
 }

@@ -1,0 +1,51 @@
+.figure {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.figure img:hover {
+    transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 50em) {
+    .figure {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 80em) {
+    .figure {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 120em) {
+    .figure {
+        width: 450px;
+        height: 350px;
+    }
+}
