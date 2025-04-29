@@ -29,7 +29,7 @@ export const Button = ({
     <button
       type={type}
       onClick={onClick}
-      className={`${baseClass} ${variants[variant]} ${sizes[size]}`}
+      className={`${baseClass} ${variants[variant]} ${sizes[size]} ${className}`}
       disabled={disabled}
     >
       {children}

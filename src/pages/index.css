@@ -1,0 +1,43 @@
+.layout {
+    position: relative;
+    height: 100dvh;
+}
+
+.header {
+    position: fixed;
+    top: 95%;
+    width: fit-content;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-container {
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.gallery-button-more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    padding-bottom: 3rem;
+}
+
+@media (min-width: 35em) {
+    .gallery-container {
+        padding-top: 10rem;
+    }
+}
+
+@media (min-width: 50em) {
+    .header {
+        top: 5%;
+    }
+}

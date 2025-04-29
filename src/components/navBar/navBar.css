@@ -1,0 +1,7 @@
+.nav-bar{
+    display: flex;
+    gap: .5rem;
+    padding: .3rem;
+    background-color: var(--white-color);
+    border-radius: .3rem;
+}
